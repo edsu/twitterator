@@ -1,4 +1,5 @@
-A start at pythong generator interface for twitter's api w/ cursors.
+A start at lazy iterator functions for twitter's api, using their cursors to
+page through results.
 
 For example if you want to print out all of danbri's current followers:
 
