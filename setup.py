@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup( 
     name = 'twitterator',
-    version = '0.1',
+    version = '0.2',
     url = 'http://python.org/pypi/twitterator',
     author = 'Ed Summers',
     author_email = 'ehs@pobox.com',
@@ -12,4 +12,5 @@ setup(
     packages = ['.'],
     description = 'iterating functions for twitter api',
     test_suite = 'tests',
+    requires = ['httplib2']
 )

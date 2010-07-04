@@ -18,5 +18,7 @@ Or if you want to print out all dchud's friends:
 I guess I'll get around to adding more of the API when I (or someone else)
 needs it.
 
+You'll need httplib2 installed for it tow work.
+
 License: Public Domain
 Contact: Ed Summers <ehs@pobox.com>
