@@ -1,0 +1,21 @@
+A start at pythong generator interface for twitter's api w/ cursors.
+
+For example if you want to print out all of danbri's current followers:
+
+    import twitterator
+
+    twitter = twitterator.Twitter()
+    for follower in twitter.statuses_followers(screen_name='danbri'):
+        print ("%(name)s [%(screen_name)s]" % follower).encode('utf-8')
+
+Or if you want to print out all dchud's friends:
+
+    twitter = twitterator.Twitter()
+    for follower in twitter.statuses_friends(screen_name='dchud'):
+        print ("%(name)s [%(screen_name)s]" % follower).encode('utf-8')
+
+I guess I'll get around to adding more of the API when I (or someone else)
+needs it.
+
+License: Public Domain
+Contact: Ed Summers <ehs@pobox.com>
